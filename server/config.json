@@ -1,0 +1,30 @@
+{
+	"servers":
+	[
+		{
+			"username": "node1",
+			"name": "node1",
+			"type": "node1",
+			"host": "host1",
+			"location": "node1",
+			"password": "node1"
+		},
+		{
+			"username": "node2",
+			"name": "node2",
+			"type": "node2",
+			"host": "host2",
+			"location": "node2",
+			"password": "node2"
+		},
+		{
+			"disabled": true,
+			"username": "node3",
+			"name": "node3",
+			"type": "node3",
+			"host": "host3",
+			"location": "node3",
+			"password": "node3"
+		}
+	]
+}
