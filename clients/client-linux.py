@@ -131,7 +131,7 @@ def ip_status():
     ip_check = 0
     for i in object_check:
         try:
-            socket.create_connection((i, PORBEPORT), timeout=1).close()
+            socket.create_connection((i, 443), timeout=1).close()
         except:
             ip_check += 1
     if ip_check >= 2:
